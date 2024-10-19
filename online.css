@@ -1,0 +1,47 @@
+body { 
+    background-image: url("resturant.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-position: center;
+    background-size:cover;
+    color:white;
+}
+
+.box {
+  border: 3px solid orange;
+
+  margin: 100px auto;
+  padding: 15px;
+  background-color:rgb(0,0,0, 0.6);
+  border-radius: 20px;
+}
+
+.header {
+  text-align: center;
+}
+
+label, p{
+  font-size: 15px;
+}
+
+input, textarea, select {
+  border: 2px solid orange;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+hr {
+  border: none;
+  height: 3px;
+  background-color: orange;
+}
+
+input[type=reset], input[type=submit], input[type=button] {
+  color:white;
+  padding: 10px 20px;
+  border: none;
+}
+
+h1, h2 {
+  color:rgb(255, 230, 0);
+}
